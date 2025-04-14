@@ -2,7 +2,7 @@
 All related to the IoT setup
 
 1. Odoo Knowledge IOT Structure and more: 
-======================================
+===
 https://lse-odoo.github.io/iot/index.html
 
 
@@ -11,11 +11,11 @@ https://lse-odoo.github.io/iot/index.html
 https://nightly.odoo.com/
 
 
-================================================================
+===
 3.🔐 Crear un certificado autofirmado para la IoT Box de Odoo
 📌 Fuente oficial: 
 Odoo Forum(https://www.odoo.com/es/forum/ayuda-1/https-connection-to-iot-box-failed-170398)
-================================================================
+===
 📋 Instrucciones:
 
 Conéctate a tu IoT Box.
@@ -46,7 +46,7 @@ subjectAltName = @alt_names
 IP.1 = YOUR_IOTBOX_IP
 EOT
 🔁 Reemplaza YOUR_IOTBOX_IP por la IP real de tu IoT Box.
-==========================================================
+===
 Ejecuta el siguiente comando para generar el certificado:
 
 openssl req -x509 -nodes -days 365000 -newkey rsa:2048 -keyout key.pem -out cert.pem -config /etc/ssl/san.cnf
