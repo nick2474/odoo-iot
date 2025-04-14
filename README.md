@@ -44,7 +44,7 @@ subjectAltName = @alt_names
 
 [alt_names]
 IP.1 = YOUR_IOTBOX_IP
-EOT
+
 🔁 Reemplaza YOUR_IOTBOX_IP por la IP real de tu IoT Box.
 ===
 Ejecuta el siguiente comando para generar el certificado:
